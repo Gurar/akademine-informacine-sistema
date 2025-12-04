@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\AdminForm">
+      <UniqueIdentifier>{0a9b813d-dc58-4048-a430-1800f7ff95f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TeacherForm">
+      <UniqueIdentifier>{43019fea-b005-4b82-8f31-9f2d5380388c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StudentForm">
+      <UniqueIdentifier>{f62042fd-77a3-4e52-8b09-18411a75b08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{972244b8-a72f-4c04-b31b-28346a6b899d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{54af932c-63c0-4c15-bc14-ffeb7ba39133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services">
+      <UniqueIdentifier>{a5c5f5c0-ca82-4e8a-9635-c8dcb5e17156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{7498bbea-04a6-4088-aef5-b3f014388f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services">
+      <UniqueIdentifier>{2c927900-3a8e-4f6a-99a4-8461b508b32a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{db607a3c-cd52-46f8-8d52-59d2bb3ba92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface">
+      <UniqueIdentifier>{0811e50b-6696-4c66-86ff-4020abb27e16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginForm.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Credit.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Grade.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Role.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Teacher.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Authentication.cpp">
+      <Filter>Source Files\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>Source Files\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLRoleRepository.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLUserRepository.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DashboardForm.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminPage.cpp">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClCompile>
+    <ClCompile Include="UsersPage.cpp">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClCompile>
+    <ClCompile Include="AddUserForm.cpp">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClCompile>
+    <ClCompile Include="EditUserForm.cpp">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClCompile>
+    <ClCompile Include="SubjectPage.cpp">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLSubjectRepository.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLCreditRepository.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AddSubjectForm.cpp">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClCompile>
+    <ClCompile Include="EditSubjectForm.cpp">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLGroupRepository.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupsPage.cpp">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClCompile>
+    <ClCompile Include="AddGroupForm.cpp">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClCompile>
+    <ClCompile Include="EditGroupForm.cpp">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignsPage.cpp">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClCompile>
+    <ClCompile Include="TeacherPage.cpp">
+      <Filter>Header Files\TeacherForm</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLTeacherRepository.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLGradeRepository,cpp.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentPage.cpp">
+      <Filter>Header Files\StudentForm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoginForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Grade.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Role.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="IGroupRepository.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IRepository.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IRoleRepository.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IUserRepository.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLRoleRepository.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLUserRepository.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Authentication.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="DashboardForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminPage.h">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersPage.h">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClInclude>
+    <ClInclude Include="AddUserForm.h">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClInclude>
+    <ClInclude Include="EditUserForm.h">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClInclude>
+    <ClInclude Include="SubjectPage.h">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClInclude>
+    <ClInclude Include="ISubjectRepository.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ICreditRepository.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLSubjectRepository.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLCreditRepository.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AddSubjectForm.h">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClInclude>
+    <ClInclude Include="EditSubjectForm.h">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLGroupRepository.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupsPage.h">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClInclude>
+    <ClInclude Include="AddGroupForm.h">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClInclude>
+    <ClInclude Include="EditGroupForm.h">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignsPage.h">
+      <Filter>Header Files\AdminForm</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherPage.h">
+      <Filter>Header Files\TeacherForm</Filter>
+    </ClInclude>
+    <ClInclude Include="ITeacherRepository.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLTeacherRepository.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherSubject.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="IGradeRepository.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLGradeRepository.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentPage.h">
+      <Filter>Header Files\StudentForm</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
